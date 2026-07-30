@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "target": "pr-42",
+  "iteration": 2,
+  "max_iterations": 5,
+  "mode": "pr-sync",
+  "status": "running",
+  "initial_head_sha": "8f34c2a",
+  "current_head_sha": "ab12cd3",
+  "last_damage_score": 36,
+  "current_damage_score": 8,
+  "addressed_ids": [
+    "DR-001",
+    "DR-002"
+  ],
+  "remaining_ids": [
+    "DR-003"
+  ],
+  "blocked_reasons": []
+}
