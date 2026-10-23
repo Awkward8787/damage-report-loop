@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Damage Report Loop" width="100%">
+  <img src="assets/banner.png" alt="Damage Report Loop" width="100%">
 </p>
 
 # Damage Report Loop
@@ -19,6 +19,20 @@ A bounded Cursor Agent Skill that repeatedly:
 5. and repeats until the branch is clear or a defined stop condition is reached.
 
 It is inspired by the iterative review pattern of Greploop but does not require Greptile.
+
+
+## How it works
+
+```mermaid
+flowchart LR
+  A[Damage Report] --> B[Fix verified findings]
+  B --> C[Targeted + full checks]
+  C --> D{Clear or stop gate?}
+  D -->|no| A
+  D -->|yes| E[Stop]
+```
+
+Bounded Cursor Agent Skill that loops Damage Report → fix → recheck until clear or a stop condition.
 
 ## Modes
 
