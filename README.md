@@ -136,3 +136,22 @@ The loop preserves unrelated user changes, refuses force-push, does not merge PR
 ## License
 
 MIT
+
+## Download
+
+Packaged skill archives are published on the [Releases page](https://github.com/Awkward8787/damage-report-loop/releases); the latest release carries `damage-report-loop-skill-v0.1.0.zip`.
+
+### Install from the release
+Install the companion `damage-report` skill first, then:
+1. Download `damage-report-loop-skill-v0.1.0.zip` from the latest release and unzip it.
+2. From the unzipped folder:
+   ```bash
+   ./scripts/install.sh --user                               # user-wide
+   ./scripts/install.sh --project /absolute/path/to/project  # one project
+   ```
+
+### Run
+In Cursor Agent:
+```text
+/damage-report-loop
+```
