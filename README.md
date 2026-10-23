@@ -1,4 +1,14 @@
+<p align="center">
+  <img src="docs/banner.png" alt="Damage Report Loop" width="100%">
+</p>
+
 # Damage Report Loop
+
+**Bounded Cursor Agent Skill that runs Damage Report, fixes verified findings, rechecks, and repeats until clear or a stop gate.**
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Cursor](https://img.shields.io/badge/Cursor%20Skill-000000)
 
 A bounded Cursor Agent Skill that repeatedly:
 
